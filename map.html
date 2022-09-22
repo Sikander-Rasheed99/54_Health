@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/meadia.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <title>56 WEB HEALTH</title>
+</head>
+
+<body>
+    <header class="sticky-top about-head shadow">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand order-1 order-lg-0" href="#">
+                    <img src="./assets/img/logo.png" alt="LOGO" class="img-fluid">
+                </a>
+                <button class="navbar-toggler order-3 order-lg-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-last order-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="partii.html">Participating Businesses</a>
+                        </li>
+                        <li>
+                            <a href="member.html">Membership</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="sign.html" class="btn-signin">Sign in</a>
+                        </li>
+                        <li>
+                            <a href="member.html" class="btn-member">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown-area d-flex align-items-center order-2 order-lg-0 ms-auto">
+                    <div class="dropdown notification-dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="notificationDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="notificationDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown userdropdown">
+                        <button class="dropdown-toggle" type="button" id="userMenuDropdwon" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <div class="img-box">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="text-box">
+                                    <p>Jessica</p>
+                                </div>
+                            </div>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="userMenuDropdwon">
+                            <li><a class="dropdown-item d-flex align-items-center" href="myaccount.html">
+                                    <img src="./assets/img/setting-logout-1.png" alt="LOG OUT" class="img-fluid">
+                                    <p class="ms-2 line">My Account</p>
+                                </a>
+
+                            </li>
+                            <li><a class="dropdown-item d-flex align-items-center" href="#">
+                                    <img src="./assets/img/logout-settimg-1.png" alt="LOGOUT" class="img-fluid">
+                                    <p class="ms-2">Log out</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="map-sec">
+            <div class="row gx-0">
+                <div class="col-12 col-md-4 col-xl-3">
+                    <div class="map-text">
+                        <div class="side-map d-flex align-items-center text-center">
+                            <a href="partii.html">
+                            <div class="map-btn">
+                                <img src="./assets/img/back-arrow.png" alt="BACK" class="img-fluid">
+                            </div>
+                        </a>
+                            <div class="map-input ms-3">
+                                <input type="text" placeholder="Search" class="input-one">
+                                <div class="search-img">
+                                    <img src="./assets/img/search-map.png" alt="SEARCH">
+                                </div>
+                                <div class="map-setting-img">
+                                    <img src="./assets/img/mapsetting.png" alt="SETTING" class="img-fluid" id="settingModel">
+                                </div>
+                                <div class="cetaogory">
+                                    <h4 class="mt-2">Category</h4>
+                                    <div class="check-text d-flex align-items-center justify-content-between mt-2 boo">
+                                     <p>Fitness</p>
+                                     <input type="checkbox">
+                                    </div>
+                                    <div class="check-text d-flex align-items-center justify-content-between mt-2 boo">
+                                     <p>Clothing</p>
+                                     <input type="checkbox" checked>
+                                    </div>
+                                    <div class="check-text d-flex align-items-center justify-content-between mt-2 boo">
+                                     <p>Grocery</p>
+                                     <input type="checkbox" checked>
+                                    </div>
+                                    <div class="check-text d-flex align-items-center justify-content-between mt-2 boo">
+                                     <p>Health</p>
+                                     <input type="checkbox">
+                                    </div>
+                                    <div class="check-text d-flex align-items-center justify-content-between mt-2 mt-2 boo">
+                                     <p>Applience</p>
+                                     <input type="checkbox">
+                                    </div>
+                                    <div class="cetagory-btn d-flex align-items-center justify-content-center">
+                                     <button>Search</button>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                      <div class="witdt">
+                        <div class="map-tee d-flex align-items-center">
+                            <div class="map-img mt-3">
+                                <img src="./assets/img/resturent-img.jpg" alt="RESTURENT" class="img-fluid">
+                            </div>
+                            <div class="img-text ms-2">
+                                <h3>Restaurant Name here</h3>
+                                <div class=".map-sec .img-text d-flex align-items-center">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star-light.png" alt="RANK" class="img-fluid">
+                                    </div>
+                                    <div class="renk ms-2">
+                                        <p>(237 reviews)</p>
+                                    </div>
+                                </div>
+                                <div class="map-lock d-flex align-items-center">
+                                    <ul class="food d-flex align-items-center">
+                                        <li>
+                                            <img src="./assets/img/noun-food.png" alt="NOUN-FOOD" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">FOOD & DRINKS</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="food d-flex align-items-center ms-4">
+                                        <li>
+                                            <img src="./assets/img/Location (2).png" alt="LOCATION" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">CALIFORNIA</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-tee d-flex align-items-center">
+                            <div class="map-img mt-3">
+                                <img src="./assets/img/resturent-img.jpg" alt="RESTURENT" class="img-fluid">
+                            </div>
+                            <div class="img-text ms-2">
+                                <h3>Restaurant Name here</h3>
+                                <div class=".map-sec .img-text d-flex align-items-center">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star-light.png" alt="RANK" class="img-fluid">
+                                    </div>
+                                    <div class="renk ms-2">
+                                        <p>(237 reviews)</p>
+                                    </div>
+                                </div>
+                                <div class="map-lock d-flex align-items-center">
+                                    <ul class="food d-flex align-items-center">
+                                        <li>
+                                            <img src="./assets/img/noun-food.png" alt="NOUN-FOOD" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">FOOD & DRINKS</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="food d-flex align-items-center ms-4">
+                                        <li>
+                                            <img src="./assets/img/Location (2).png" alt="LOCATION" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">CALIFORNIA</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-tee d-flex align-items-center">
+                            <div class="map-img mt-3">
+                                <img src="./assets/img/resturent-img.jpg" alt="RESTURENT" class="img-fluid">
+                            </div>
+                            <div class="img-text ms-2">
+                                <h3>Restaurant Name here</h3>
+                                <div class=".map-sec .img-text d-flex align-items-center">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star-light.png" alt="RANK" class="img-fluid">
+                                    </div>
+                                    <div class="renk ms-2">
+                                        <p>(237 reviews)</p>
+                                    </div>
+                                </div>
+                                <div class="map-lock d-flex align-items-center">
+                                    <ul class="food d-flex align-items-center">
+                                        <li>
+                                            <img src="./assets/img/noun-food.png" alt="NOUN-FOOD" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">FOOD & DRINKS</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="food d-flex align-items-center ms-4">
+                                        <li>
+                                            <img src="./assets/img/Location (2).png" alt="LOCATION" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">CALIFORNIA</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-tee d-flex align-items-center">
+                            <div class="map-img mt-3">
+                                <img src="./assets/img/resturent-img.jpg" alt="RESTURENT" class="img-fluid">
+                            </div>
+                            <div class="img-text ms-2">
+                                <h3>Restaurant Name here</h3>
+                                <div class=".map-sec .img-text d-flex align-items-center">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star-light.png" alt="RANK" class="img-fluid">
+                                    </div>
+                                    <div class="renk ms-2">
+                                        <p>(237 reviews)</p>
+                                    </div>
+                                </div>
+                                <div class="map-lock d-flex align-items-center">
+                                    <ul class="food d-flex align-items-center">
+                                        <li>
+                                            <img src="./assets/img/noun-food.png" alt="NOUN-FOOD" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">FOOD & DRINKS</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="food d-flex align-items-center ms-4">
+                                        <li>
+                                            <img src="./assets/img/Location (2).png" alt="LOCATION" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">CALIFORNIA</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-tee d-flex align-items-center">
+                            <div class="map-img mt-3">
+                                <img src="./assets/img/resturent-img.jpg" alt="RESTURENT" class="img-fluid">
+                            </div>
+                            <div class="img-text ms-2">
+                                <h3>Restaurant Name here</h3>
+                                <div class=".map-sec .img-text d-flex align-items-center">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star-light.png" alt="RANK" class="img-fluid">
+                                    </div>
+                                    <div class="renk ms-2">
+                                        <p>(237 reviews)</p>
+                                    </div>
+                                </div>
+                                <div class="map-lock d-flex align-items-center">
+                                    <ul class="food d-flex align-items-center">
+                                        <li>
+                                            <img src="./assets/img/noun-food.png" alt="NOUN-FOOD" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">FOOD & DRINKS</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="food d-flex align-items-center ms-4">
+                                        <li>
+                                            <img src="./assets/img/Location (2).png" alt="LOCATION" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">CALIFORNIA</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-tee d-flex align-items-center">
+                            <div class="map-img mt-3">
+                                <img src="./assets/img/resturent-img.jpg" alt="RESTURENT" class="img-fluid">
+                            </div>
+                            <div class="img-text ms-2">
+                                <h3>Restaurant Name here</h3>
+                                <div class=".map-sec .img-text d-flex align-items-center">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star-light.png" alt="RANK" class="img-fluid">
+                                    </div>
+                                    <div class="renk ms-2">
+                                        <p>(237 reviews)</p>
+                                    </div>
+                                </div>
+                                <div class="map-lock d-flex align-items-center">
+                                    <ul class="food d-flex align-items-center">
+                                        <li>
+                                            <img src="./assets/img/noun-food.png" alt="NOUN-FOOD" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">FOOD & DRINKS</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="food d-flex align-items-center ms-4">
+                                        <li>
+                                            <img src="./assets/img/Location (2).png" alt="LOCATION" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">CALIFORNIA</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-tee d-flex align-items-center">
+                            <div class="map-img mt-3">
+                                <img src="./assets/img/resturent-img.jpg" alt="RESTURENT" class="img-fluid">
+                            </div>
+                            <div class="img-text ms-2">
+                                <h3>Restaurant Name here</h3>
+                                <div class=".map-sec .img-text d-flex align-items-center mb">
+                                    <div class="stars d-flex align-items-center">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star (1).png" alt="RANK" class="img-fluid">
+                                        <img src="./assets/img/Star-light.png" alt="RANK" class="img-fluid">
+                                    </div>
+                                    <div class="renk ms-2">
+                                        <p class="stars">(237 reviews)</p>
+                                    </div>
+                                </div>
+                                <div class="map-lock d-flex align-items-center">
+                                    <ul class="food d-flex align-items-center">
+                                        <li>
+                                            <img src="./assets/img/noun-food.png" alt="NOUN-FOOD" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">FOOD & DRINKS</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="food d-flex align-items-center ms-4">
+                                        <li>
+                                            <img src="./assets/img/Location (2).png" alt="LOCATION" class="img-fluid">
+                                        </li>
+                                        <li>
+                                            <p class="ms-1 mt-1">CALIFORNIA</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-xl-9 ">
+                    <div class="map-img only">
+                        <img src="./assets/img/map (1).jpg" alt="MAP" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $("#settingModel").click(function() {
+                $(".cetaogory").toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

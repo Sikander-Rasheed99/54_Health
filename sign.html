@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/meadia.css">
+    <title>54 WEB HEALTH</title>
+</head>
+
+<body class="height bg-ofwhite">
+    <header class="sign-header bg-grey height-81">
+        <div class="container">
+            <div class="logo">
+                <a href="home.html"> <img src="./assets/img/logo.png" alt="LOGO" class="img-fluid"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="sign-sec">
+            <div class="container sign-con gx-0">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-12 col-md-5">
+                        <div class="login-box">
+                            <div class="sign-img">
+                                <img src="./assets/img/banner-img.png" alt="SIGN-IMG" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-7">
+                        <div class="sing-input">
+                            <div class="sign-text">
+                                <p>Login to your exicting account</p>
+                                <h1 class="mt-2">Welcome to <br>
+                                    Five Four Health</h1>
+                            </div>
+                            <div class="sign-form mt-3">
+                                <form>
+                                    <fieldset class="material">
+                                        <input type="text" autocomplete="off" required>
+                                        <label class="pro">Email</label>
+                                    </fieldset>
+                                    <div class="form-icon">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                </form>
+                            </div>
+                             <div class="sign-form mt-4">
+                                <form>
+                                    <fieldset class="material">
+                                        <input type="password"   autocomplete="off" required id="loginPassword">
+                                        <label class="pro">Password</label>
+                                    </fieldset>
+                                    <div class="form-icon">
+                                        <i class="fa-solid fa-eye-slash toggle-password" toggle="#loginPassword"></i>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-check ms-2 mt-4">
+                                <input class="form-check-input" type="checkbox" value id="Remember">
+                                <label class="form-check-label font-20 text-1a1a1a" for="Remember"> Remember me
+                                </label>
+                            </div>
+                            <div class="sign-btn d-flex align-items-center justify-content-center">
+                               <a href="home.html"> <button>Sign in</button></a>
+                            </div>
+                            <div class="forget-pass text-center mt-3">
+                             <a href="forgot.html"><p class="dark">Forgot Password?</p></a>
+                                <p class="yellow">Become a Member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/bootstrap5/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        $( document ).ready(function() {
+            $(".toggle-password").click(function() {
+            $(this).toggleClass("fa-eye fa-eye-slash");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+            input.attr("type", "text");
+            } else {
+            input.attr("type", "password");
+            }
+            });
+        });
+       
+    </script>
+</body>
+
+</html>

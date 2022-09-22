@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/meadia.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>56 WEB HEALTH</title>
+</head>
+
+<body>
+    <header class="sticky-top about-head shadow">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+              <a class="navbar-brand order-1 order-lg-0" href="#">
+                <img src="./assets/img/logo.png" alt="LOGO" class="img-fluid">
+              </a>
+              <button class="navbar-toggler order-3 order-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse order-last order-lg-0" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li>
+                    <a href="home.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html">About</a>
+                  </li>
+                  <li>
+                    <a href="partii.html">Participating Businesses</a>
+                  </li>
+                  <li>
+                    <a href="member.html">Membership</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                  <li>
+                    <a href="sign.html" class="btn-signin">Sign in</a>
+                  </li>
+                  <li>
+                    <a href="member.html" class="btn-member">Become a member</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown-area d-flex align-items-center order-2 order-lg-0 ms-auto">
+                <div class="dropdown notification-dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" id="notificationDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i>
+                    </a>
+                
+                    <ul class="dropdown-menu" aria-labelledby="notificationDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown userdropdown">
+                    <button class="dropdown-toggle" type="button" id="userMenuDropdwon" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="d-flex align-items-center">
+                            <div class="img-box">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Jessica</p>
+                            </div>
+                        </div>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="userMenuDropdwon">
+                    <li><a class="dropdown-item d-flex align-items-center" href="myaccount.html">
+                      <img src="./assets/img/setting-logout-1.png" alt="LOG OUT" class="img-fluid">
+                      <p class="ms-2 line">My Account</p>
+                    </a>
+                  
+                  </li>
+                    <li><a class="dropdown-item d-flex align-items-center" href="#">
+                      <img src="./assets/img/logout-settimg-1.png" alt="LOGOUT" class="img-fluid">
+                      <p class="ms-2">Log out</p>
+                    </a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="all-sec">
+                 <div class="row gx-0">
+               <div class="col-12 col-md-3">
+                <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <button class="nav-link active root d-flex align-items-center" id="v-pills-home-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
+                        aria-controls="v-pills-home" aria-selected="true">
+                        <div class="sec-img">
+                            <img src="./assets/img/profile-bulk.png" alt="PROFILE" class="img-fluid  acvit">
+                            <img src="./assets/img/profile-bulk-colorfuul.png" alt="PROFILE"
+                                class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text mt-2">
+                            <p class="ms-2">Profile</p>
+                        </div>
+                    </button>
+                    <button class="nav-link root d-flex align-items-center" id="v-pills-referral-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-referral" type="button" role="tab" aria-controls="v-pills-referral"
+                        aria-selected="false">
+                        <div class="sec-img">
+                            <img src="./assets/img/share.png" alt="SHARE" class="img-fluid acvit">
+                            <img src="./assets/img/share-color-full.webp" alt="SHARE" class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text">
+                            <p class="ms-2">Referral Link</p>
+                        </div>
+                    </button>
+                    <button class="nav-link root d-flex align-items-center" id="v-pills-favorite-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-favorite" type="button" role="tab" aria-controls="v-pills-favorite"
+                        aria-selected="false">
+                        <div class="sec-img">
+                            <img src="./assets/img/heart-black.png" alt="HEART" class="img-fluid acvit">
+                            <img src="./assets/img/heart-color-full.png" alt="HEART" class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text">
+                            <p class="ms-2">My Favorites</p>
+                        </div>
+                    </button>
+                    <button class="nav-link root d-flex align-items-center" id="v-pills-subscription-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-subscription" type="button" role="tab"
+                        aria-controls="v-pills-subscription" aria-selected="false">
+                        <div class="sec-img">
+                            <img src="./assets/img/receipt-black.png" alt="RECEIPT" class="img-fluid acvit">
+                            <img src="./assets/img/receipt-color-full.png" alt="RECEIPT" class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text">
+                            <p class="ms-2">Subscription</p>
+                        </div>
+                    </button>
+                    <button class="nav-link root d-flex align-items-center" id="v-pills-notification-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-noti" type="button" role="tab"
+                        aria-controls="v-pills-noti" aria-selected="false">
+                        <div class="sec-img">
+                            <img src="./assets/img/notification-bing.png" alt="NOTIFICATION" class="img-fluid acvit">
+                            <img src="./assets/img/notification-bing-color-full.png" alt="NOTIFICATION"
+                                class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text">
+                            <p class="ms-2">Notifications</p>
+                        </div>
+                    </button>
+                    <button class="nav-link root d-flex align-items-center" id="v-pills-conditions-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-conditions" type="button" role="tab" aria-controls="v-pills-conditions"
+                        aria-selected="false">
+                        <div class="sec-img">
+                            <img src="./assets/img/document-text.png" alt="DOCUMENT" class="img-fluid acvit">
+                            <img src="./assets/img/document-text-color-full.png" alt="DOCUMENT"
+                                class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text">
+                            <p class="ms-2">Terms & Conditions</p>
+                        </div>
+                    </button>
+                    <button class="nav-link root d-flex align-items-center" id="v-pills-policy-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-policy" type="button" role="tab" aria-controls="v-pills-policy"
+                        aria-selected="false">
+                        <div class="sec-img">
+                            <img src="./assets/img/shield-tick.png" alt="SHEILD" class="img-fluid acvit">
+                            <img src="./assets/img/shield-tick-color-full.png" alt="SHEILD"
+                                class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text">
+                            <p class="ms-2">Privacy & Policy</p>
+                        </div>
+                    </button>
+                    <button class="nav-link root d-flex align-items-center" id="v-pills-FAQs-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-FAQs" type="button" role="tab" aria-controls="v-pills-FAQs"
+                        aria-selected="false">
+                        <div class="sec-img">
+                            <img src="./assets/img/message-question.png" alt="FAQs" class="img-fluid acvit">
+                            <img src="./assets/img/message-question-color-full.png" alt="FAQs"
+                                class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text">
+                            <p class="ms-2">FAQs</p>
+                        </div>
+                    </button>
+                    <button class="nav-link root d-flex align-items-center" id="v-pills-FAQs-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-FAQs" type="button" role="tab" aria-controls="v-pills-FAQs"
+                        aria-selected="false">
+                        <div class="sec-img">
+                            <img src="./assets/img/message-question.png" alt="FAQs" class="img-fluid acvit">
+                            <img src="./assets/img/message-question-color-full.png" alt="FAQs"
+                                class="img-fluid non-active">
+                        </div>
+                        <div class="sec-text">
+                            <p class="ms-2">FAQs</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-md-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <div class="profile-sec">
+                        <div class="tab-content">
+                            <div class="tab-content-box">
+                                <div class="d-flex align-items-center justify-content-between profile">
+                                    <div class="grid-col">
+                                        <h3>Profile</h3>
+                                    </div>
+                                    <div class="grid-col">
+                                        <div class="pro-img">
+                                            <img src="./assets/img/paitent.jpg" alt="PAITENT"
+                                                class="img-fluid nob-img ">
+                                            <img src="./assets/img/plus-img.png" alt="PAITENT"
+                                                class="img-fluid plus-img">
+                                        </div>
+                                    </div>
+                                    <div class="grid-col">
+                                        <div class="pro-btn">
+                                            <button>
+                                                Edit Profile
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-pro mt-5">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form__group">
+                                                <form>
+                                                    <fieldset class="material">
+                                                        <input type="text" autocomplete="off" required>
+                                                        <label class="pro">Name*</label>
+                                                    </fieldset>
+                                                </form>
+                                            </div>                                       
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form__group">
+                                                <form>
+                                                    <fieldset class="material">
+                                                        <input type="number" autocomplete="off" required>
+                                                        <label class="pro">Phone*</label>
+                                                    </fieldset>
+                                                </form>
+                                            </div> 
+                                        </div>
+                                        <div class="col-12 col-md-6 poo ">
+                                            <div class="form__group">
+                                                <form>
+                                                    <fieldset class="material">
+                                                        <input type="text" autocomplete="off" required>
+                                                        <label class="pro">Email*</label>
+                                                    </fieldset>
+                                                </form>
+                                            </div> 
+                                        </div>
+                                        <div class="col-12 col-md-6 poo">
+                                            <div class="form__group">
+                                                <form>
+                                                    <fieldset class="material">
+                                                        <input type="text" autocomplete="off" required>
+                                                        <label class="pro">Email*</label>
+                                                    </fieldset>
+                                                </form>
+                                            </div>                                       
+                                        </div>
+                                        <div class="col-12 col-md-6 poo">
+                                            <div class="form__group">
+                                                <form>
+                                                    <fieldset class="material">
+                                                        <input type="password" autocomplete="off" required>
+                                                        <label class="pro">Password*</label>
+                                                    </fieldset>
+                                                </form>
+                                            </div> 
+                                        </div>
+                                        <div class="col-12 col-md-6 poo ">
+                                            <div class="form__group">
+                                                <form>
+                                                    <fieldset class="material">
+                                                        <input type="password" autocomplete="off" required>
+                                                        <label class="pro">Conform Password*</label>
+                                                    </fieldset>
+                                                </form>
+                                            </div> 
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 col-lg-4 mod">
+                                            <div class="official-img mt-4">
+                                                <p>Official Photo ID / Work ID*</p>
+                                                <div class="officail-photo mt-2" data-bs-toggle="modal"
+                                                    data-bs-target="#myModal">
+                                                    <button>
+                                                        <img src="./assets/img/official-id.png" alt="OFFICIAL-ID"
+                                                            class="img-fluid"> </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                    aria-labelledby="v-pills-profile-tab">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-referral" role="tabpanel"
+                        aria-labelledby="v-pills-referral-tab">
+                        <div class="tab-content">
+                            <div class="tab-content-box">
+                                <div class="row">
+                                    <div class="col-12 col-md-8">
+                                        <div class="referral-text">
+                                            <h5 class="font-20">Share the Love! </h5>
+                                            <p class="mt-3 saam">Receive a free added month to your membership each
+                                                time
+                                                your
+                                                referral code
+                                                is used! Valid for member or business referral. The more the
+                                                merrier!
+                                            </p>
+                                        </div>
+                                        <div class="referral-input  mt-3">
+                                            <p class="yellow ">Referral Link</p>
+                                            <div class="referral-input d-flex align-items-center">
+                                                <input class="referral-inp" type="text">
+                                                <button class="ms-2">
+                                                    Share Link
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="referral-img">
+                                            <img src="./assets/img/speaker.png" alt="SPEAKER" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5 class="font-20 mt-4">Referral History</h5>
+                                        <div class="referral-tables mt-3">
+                                            <table class="table border-right ">
+                                                <thead>
+                                                    <tr class="bg-eff2f5">
+                                                        <th class="border-right">Name</th>
+                                                        <th class="border-right">Email</th>
+                                                        <th class="border-right">Reward</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="bg-aff">
+                                                        <td class="border-right">Rachel Coleman</td>
+                                                        <td class="border-right">rachelcoleman@email.com</td>
+                                                        <td class="border-right">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
+                                                                <p>1 Month</p>
+                                                                <p class="green"> Remaining</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="bg-eff">
+                                                        <td class="border-right">Nicolas Andrews</td>
+                                                        <td class="border-right">nicolasandrews@email.com</td>
+                                                        <td class="border-right">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
+                                                                <p>1 Month</p>
+                                                                <p class="green"> Remaining</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="border-right">Andreea Patel</td>
+                                                        <td class="border-right">andreeapatel@email.com</td>
+                                                        <td class="border-right">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
+                                                                <p>1 Month</p>
+                                                                <p class="yellow"> Consumed</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="bg-eff">
+                                                        <td class="border-right">Timothy Watkins</td>
+                                                        <td class="border-right">timothywatkins@email.com</td>
+                                                        <td class="border-right">
+                                                            <div
+                                                                class="d-flex align-items-center justify-content-between">
+                                                                <p>1 Month</p>
+                                                                <p class="yellow"> Consumed</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="bg-eff2f5 border-right">
+                                                        <td colspan="1">Total</td>
+                                                        <td></td>
+                                                        <td class="border-right">4 Months</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-favorite" role="tabpanel"
+                        aria-labelledby="v-pills-favorite-tab">
+                        <div class="tab-content">
+                            <div class="tab-content-box">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4>My Favorites</h4>
+                                    </div>
+                                </div>
+                                <div class="row witdt">
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-3 ">
+                                        <div class="card">
+                                            <div class="img-icon">
+                                                <img src="./assets/img/pizzza.png" class="card-img-top" alt="PIZZA">
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Soup & Salad Bar</h5>
+                                                <p class="card-text">Parmesan Crusted Chicken Fillet served with…
+                                                    Sauteed Vegetables,
+                                                    Mashed Potatoes in a Light Whole Grain Mustard sauce
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-subscription" role="tabpanel"
+                        aria-labelledby="v-pills-subscription-tab">
+                        <div class="tab-content">
+                            <div class="tab-content-box">
+                                <div class="import">
+                                    <div class="sub-text">
+                                        <h5>Subscription</h5>
+                                        <p class="mt-2 saam">Choose the right pricing and get started with your Plan</p>
+                                    </div>
+                                    <div class="sub-btn">
+                                        <div class="inp-btn">
+                                            <button>
+                                                History
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="import mt-4">
+                                    <div class="col-6 col-sm-5 col-md-5">
+                                        <div class="border-text width">
+                                            <div class="kok">
+                                                <p class="same alag"> Half Yearly </p>
+                                                <span class="green alag"> </span>
+                                                <p class="same alag">Active </p>
+                                            </div>
+                                            <h2 class="yellow mt-2">$99.00</h2>
+                                            <p class="same">The perfect way to get started and get used to our features.
+                                            </p>
+                                            <div class="form-check mt-4">
+                                                <input class="form-check-input" type="checkbox" value id="All">
+                                                <label class="form-check-label font-20 mb-2" for="All"> All
+                                                    Features in Standard
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value id="Amet">
+                                                <label class="form-check-label font-20" for="Amet">Amet cons  deridsei
+                                                </label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="checkbox" value id="Lorem">
+                                                <label class="form-check-label font-20 " for="Lorem">Lorem Ipsum
+                                                    dolor sit
+                                                </label>
+                                            </div>
+                                            <div class="border-btn text-center">
+                                                <button class="mt-3">
+                                                    2 Months Extra
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-5 col-md-5 pt">
+                                        <div class="text width">
+                                            <div class=" important kok">
+                                                <p class="same alag"> Half Yearly </p>
+                                            </div>
+                                            <div class="d-flex important ">
+                                                <h2 class="yellow mt-2">$179.00</h2>
+                                                <p class="mt-2 ms-1 same">Sale 20% off</p>
+                                            </div>
+                                            <p class="same">The perfect way to get started and get used to our features.
+                                            </p>
+                                            <div class="form-check mt-3">
+                                                <input class="form-check-input" type="checkbox" value id="Standard">
+                                                <label class="form-check-label font-20" for="Standard"> All
+                                                    Features in Standard
+                                                </label>
+                                            </div>
+                                            <div class="form-check mt-1">
+                                                <input class="form-check-input" type="checkbox" value id="Cons">
+                                                <label class="form-check-label font-20" for="Cons">Amet cons
+                                                    deri dsei
+                                                </label>
+                                            </div>
+                                            <div class="form-check mt-2">
+                                                <input class="form-check-input" type="checkbox" value id="Ipsum">
+                                                <label class="form-check-label font-20 " for="Ipsum">Lorem Ipsum
+                                                    dolor sit
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-noti" role="tabpanel" aria-labelledby="v-pills-noti-tab">
+                        <div class="tab-content">
+                            <div class="tab-content-box">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5>Notifications</h5>
+                                        <p class="mt-2 saam">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        </p>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <div
+                                            class="form-check form-switch importii">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">NotificationsOn
+                                                / Off</label>
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault" />
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-conditions" role="tabpanel"
+                        aria-labelledby="v-pills-conditions-tab">
+                        <div class="tab-content">
+                            <div class="tab-content-box">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5>Terms & Conditions</h5>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-policy" role="tabpanel"
+                        aria-labelledby="v-pills-policy-tab">
+                        <div class="tab-content">
+                            <div class="tab-content-box">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5>Privacy Policy</h5>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-FAQs" role="tabpanel"
+                        aria-labelledby="v-pills-FAQs-tab">
+                        <div class="tab-content">
+                            <div class="tab-content-box">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5>FAQs</h5>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+                                        <p class="mt-3 saam">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Magnam nostrum ullam ea quam repudiandae, iste, enim molestiae autem
+                                            doloremque ad aspernatur quo quos iusto, adipisci praesentium laudantium
+                                            beatae culpa veritatis id consectetur illum unde fugit commodi. Eaque
+                                            dolores, neque fuga qui quis ad amet porro odit doloribus aperiam blanditiis
+                                            nulla fugiat, vero vitae laboriosam quasi pariatur quos necessitatibus culpa
+                                            praesentium impedit aliquid, adipisci nesciunt repudiandae. Nisi blanditiis
+                                            inventore dignissimos est iure quam omnis dolore praesentium iusto. Corporis
+                                            vitae eligendi alias temporibus quasi fuga officia. Vero veniam fugit quas
+                                            ipsum quibusdam atque, alias libero hic repellat veritatis. Ea mollitia
+                                            architecto minus!</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          
+        </section>
+    </main>
+    <!-- MODAL  -->
+    <div class="modal fade" id="myModal" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h5 class="modal-title">Official ID</h5>
+                    <div class="modal-img text-center">
+                        <img src="./assets/img/official-id.png" alt="OFFICIAL-ID" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->         <script src="./assets/bootstrap5/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+@media screen and (max-width: 1399px) {
+  .navbar-nav>li:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .dropdown-menu[data-bs-popper] {
+    left: -50px;
+  }
+ 
+}
+
+@media screen and (max-width: 1199px) {
+  .dropdown-menu[data-bs-popper] {
+    left: -90px;
+  }
+
+  .tab-content h2.mb-3 {
+    font-size: 23px;
+}
+
+.banner-section .text-box h3 {
+  color: black;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.nav-item button {
+  font-size: 11px !important;
+}
+
+.banner-section .text-box li {
+  font-size: 13px !important;
+}
+
+.banner-section .back-btn a {
+  font-size: 13px;
+}
+  .product-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  
+
+  .btn-signin {
+    width: 60px;
+    height: auto;
+    padding: 4px;
+  }
+
+  .navbar-nav>li>a {
+    font-size: 13px;
+    border-width: 1px;
+    height: auto;
+    padding: 5px;
+  }
+
+  .btn-member {
+    width: 130px;
+  }
+
+  .navbar-nav>li:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .notification-dropdown {
+    margin: 0 15px;
+  }
+
+  .notification-dropdown>a {
+    font-size: 18px;
+  }
+
+  .userdropdown .img-box {
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .userdropdown .text-box p {
+    font-size: 13px;
+  }
+
+  .userdropdown button::after {
+    right: -17px;
+    top: 11px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+.back-btn {
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+
+.card .card-body .product-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+  .userdropdown button::after {
+    right: 13px;
+    top: 12px;
+}
+
+.nav-item button {
+  font-size: 10px !important;
+}
+
+.price-box .product-price {
+  font-size: 12px;
+}
+
+.text-box {
+  margin-right: 31px !important;
+}
+  header .container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  ul#myTab li {
+    padding: 6px !important;
+}
+
+  .navbar-nav {
+    background-color: #ba8814;
+    margin-left: unset !important;
+    align-items: unset;
+    margin-top: 10px;
+  }
+
+  .banner-section .text-box h3 {
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+  .navbar-brand {
+    margin-left: 15px;
+  }
+
+  button.navbar-toggler {
+    margin-right: 15px;
+  }
+
+  .navbar-nav>li:not(:last-child) {
+    margin-right: 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  .navbar-nav>li>a {
+    padding: 10px 15px;
+    background: transparent;
+    display: block;
+    width: 100%;
+    color: #fff !important;
+    box-shadow: none;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+.absolute{
+  position: unset;
+  width: 100%;
+}
+.banner-sec{
+  background: url(../img/banner-bg.png) no-repeat center center; 
+  height:  450px;
+  background-size: cover;
+  } 
+
+  .card .card-text {
+    color: rgba(51, 51, 51, 0.3);
+    font-size: 13px;
+}
+
+.card .card-body .product-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+  .banner-sec .img-box {
+    padding-top: 54px;
+    }
+    .footer-sec{
+      flex-direction: column;
+    }
+}
+@media screen and (max-width: 575px) {
+  .absolute{
+    position: unset;
+    width: 100%;
+  }
+  .banner-section button.btn-theme {
+    margin-top: 11px;
+}
+
+.tab-content h2.mb-3 {
+  font-size: 24px;
+}
+
+.card .card-body .product-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card .card-text {
+  color: rgba(51, 51, 51, 0.3);
+  font-size: 14px;
+}
+.price-box .product-price {
+  font-size: 13px;
+}
+  .banner-sec{
+    background: url(../img/banner-bg.png) no-repeat center center; 
+    height:  400px;
+    background-size: cover;
+    } 
+    .banner-sec .img-box {
+      padding-top: 54px;
+      }
+  }
